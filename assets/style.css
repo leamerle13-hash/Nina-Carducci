@@ -42,6 +42,11 @@ body {
 	width: 20px;
 }
 
+.carousel-item img {
+	max-width: 1920px;
+	max-height: 888px;
+}
+
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -272,7 +277,6 @@ input[type="submit"] {
 @media all and (max-width: 1000px) {
 	#about{
 		flex-direction: column;
-
 	}
 	.picture {
 		width: 50%;
